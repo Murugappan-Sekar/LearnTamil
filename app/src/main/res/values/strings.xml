@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Learn Tamil</string>
+    <string name="numbers">Numbers</string>
+    <string name="colors">Colors</string>
+    <string name="phrases">Phrases</string>
+    <string name="familyMembers">Family Members</string>
+    <string name="animals">Animals</string>
+    <string name="humanAnatomy">Human Anatomy</string>
+    <string name="categories">Categories</string>
+
+    <string name="title_activity_dummy">Dummy</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <!-- numbers input -->
+    <string name="zeroString">Zero</string>
+    <string name="oneString">One</string>
+    <string name="twoString">Two</string>
+    <string name="threeString">Three</string>
+    <string name="fourString">Four</string>
+    <string name="fiveString">Five</string>
+    <string name="sixString">Six</string>
+    <string name="sevenString">Seven</string>
+    <string name="eightString">Eight</string>
+    <string name="nineString">Nine</string>
+    <string name="tenString">Ten</string>
+    <!--end of numbers input -->
+
+    <!-- numbers answer -->
+    <string name="zeroStringAnswer">பூஜ்யம்</string>
+    <string name="oneStringAnswer">ஒன்று</string>
+    <string name="twoStringAnswer">இரண்டு</string>
+    <string name="threeStringAnswer">மூன்று</string>
+    <string name="fourStringAnswer">நான்கு</string>
+    <string name="fiveStringAnswer">ஐந்து</string>
+    <string name="sixStringAnswer">ஆறு</string>
+    <string name="sevenStringAnswer">ஏழு</string>
+    <string name="eightStringAnswer">எட்டு</string>
+    <string name="nineStringAnswer">ஒன்பது</string>
+    <string name="tenStringAnswer">பத்து</string>
+
+    <!-- end of numbers answer -->
+
+
+    <!-- Colors input-->
+    <string name="blackColor">Black</string>
+    <string name="whiteColor">White</string>
+    <string name="blueColor">Blue</string>
+    <string name="greenColor">Green</string>
+    <string name="redColor">Red</string>
+    <string name="yellowColor">Yellow</string>
+    <string name="purpleColor">Purple</string>
+    <string name="brownColor">Brown</string>
+    <!--end of Colors input-->
+    <!--Colors answer-->
+    <string name="blackColorAnswer">கருப்பு</string>
+    <string name="whiteColorAnswer">வெள்ளை</string>
+    <string name="blueColorAnswer">நீலம்</string>
+    <string name="greenColorAnswer">பச்சை</string>
+    <string name="redColorAnswer">சிவப்பு</string>
+    <string name="yellowColorAnswer">மஞ்சள்</string>
+    <string name="purpleColorAnswer">ஊதா</string>
+    <string name="brownColorAnswer">பழுப்பு</string>
+    <!--end of colors answer-->
+    <!--animals input-->
+    <string name="animal1">Bear</string>
+    <string name="animal2">Cat</string>
+    <string name="animal3">Crocodile</string>
+    <string name="animal4">Deer</string>
+    <string name="animal5">Dog</string>
+    <string name="animal10">Horse</string>
+    <string name="animal6">Donkey</string>
+    <string name="animal7">Elephant</string>
+    <string name="animal8">Fox</string>
+    <string name="animal9">Goat</string>
+    <string name="animal11">Lion</string>
+    <string name="animal12">Monkey</string>
+    <string name="animal13">Squirrel</string>
+    <string name="animal14">Tiger</string>
+
+
+    <!--end of animals input-->
+    <!--animals answer-->
+    <string name="animalAnswer1">கரடி</string>
+    <string name="animalAnswer2">பூனை</string>
+    <string name="animalAnswer3">முதலை</string>
+    <string name="animalAnswer4">மான்</string>
+    <string name="animalAnswer5">நாய்</string>
+    <string name="animalAnswer6">கழுதை</string>
+    <string name="animalAnswer7">யானை</string>
+    <string name="animalAnswer8">நரி</string>
+    <string name="animalAnswer9">ஆடு</string>
+    <string name="animalAnswer10">குதிரை</string>
+    <string name="animalAnswer11">சிங்கம்</string>
+    <string name="animalAnswer12">குரங்கு</string>
+    <string name="animalAnswer13">அணில்</string>
+    <string name="animalAnswer14">புலி</string>
+
+    <!--end of animals answer-->
+    <!--family-->
+    <string name="family1">Mother</string>
+    <string name="family2">Father</string>
+    <string name="family3">Grandfather</string>
+    <string name="family4">Grandmother</string>
+    <string name="family5">Brother</string>
+    <string name="family6">Sister</string>
+    <string name="family7">Son</string>
+    <string name="family8">Daughter</string>
+    <string name="family9">Wife</string>
+    <string name="family10">Husband</string>
+    <!--end of family-->
+    <!--answers for family-->
+    <string name="familyAnswer1">அம்மா</string>
+    <string name="familyAnswer2">அப்பா</string>
+    <string name="familyAnswer3">தாத்தா</string>
+    <string name="familyAnswer4">பாட்டி</string>
+    <string name="familyAnswer5">சகோதரன்</string>
+    <string name="familyAnswer6">சகோதரி</string>
+    <string name="familyAnswer7">மகன்</string>
+    <string name="familyAnswer8">மகள்</string>
+    <string name="familyAnswer9">மனைவி</string>
+    <string name="familyAnswer10">கணவன்</string>
+    <!--end of family answers-->
+    <!--human anatomy-->
+    <string name="human1">Eyes</string>
+    <string name="human2">Nose</string>
+    <string name="human3">Head</string>
+    <string name="human4">Leg</string>
+    <string name="human5">Ear</string>
+    <string name="human6">Hand</string>
+    <string name="human7">Tooth</string>
+    <string name="human8">Tongue</string>
+    <string name="human9">Neck</string>
+    <string name="human10">Finger</string>
+    <!--end of human anatomy-->
+    <!--answers for human anatomy-->
+    <string name="humanAnswer1">கண்கள்</string>
+    <string name="humanAnswer2">மூக்கு</string>
+    <string name="humanAnswer3">தலை</string>
+    <string name="humanAnswer4">கால்</string>
+    <string name="humanAnswer5">காது</string>
+    <string name="humanAnswer6">கை</string>
+    <string name="humanAnswer7">பல்</string>
+    <string name="humanAnswer8">நாக்கு</string>
+    <string name="humanAnswer9">கழுத்து</string>
+    <string name="humanAnswer10">விரல்</string>
+    <!--end of human anatomy answers-->
+</resources>

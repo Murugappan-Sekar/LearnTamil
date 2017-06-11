@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appbackground"
+    tools:context="com.example.android.learntamil.MainActivity">
+    <!-- app categories -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/categories"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textSize="40sp"
+        android:elevation="30dp"
+        />
+    <!-- For scrolling purpose in the app -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            >
+        <TextView
+            style="@style/CategoryStyle"
+            android:id="@+id/menuNumbers"
+            android:text="@string/numbers"
+            android:background="@drawable/gradientnumber"
+            android:onClick="startNumbersActivity"
+            />
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/menuColors"
+                android:text="@string/colors"
+                android:background="@drawable/gradientcolor"
+                android:onClick="startColorsActivity"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/menuAnimals"
+                android:text="@string/animals"
+                android:onClick="startAnimalsActivity"
+                android:background="@drawable/gradientanimal"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/menuHuman"
+                android:text="@string/humanAnatomy"
+                android:onClick="startHumanActivity"
+                android:background="@drawable/gradienthuman"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/menuFamily"
+                android:text="@string/familyMembers"
+                android:onClick="startFamilyActivity"
+                android:background="@drawable/gradientfamily"/>
+            <TextView
+                style="@style/CategoryStyle"
+                android:id="@+id/menuPhrases"
+                android:text="@string/phrases"
+                android:onClick="startPhraseActivity"
+                android:background="@drawable/gradientphrase"/>
+        </LinearLayout>
+    </ScrollView>
+    <!-- End of Scroll view -->
+</LinearLayout>
