@@ -22,21 +22,21 @@ public class NumbersActivity extends AppCompatActivity {
         //through array adapter
         //Log.v("activity ","before adapter");
         ArrayList<Word> words=new ArrayList<Word>();
-        words.add(new Word(getResources().getString(R.string.oneStringAnswer),getResources().getString(R.string.oneString)));
-        words.add(new Word(getResources().getString(R.string.twoStringAnswer),getResources().getString(R.string.twoString)));
-        words.add(new Word(getResources().getString(R.string.threeStringAnswer),getResources().getString(R.string.threeString)));
-        words.add(new Word(getResources().getString(R.string.fourStringAnswer),getResources().getString(R.string.fourString)));
-        words.add(new Word(getResources().getString(R.string.fiveStringAnswer),getResources().getString(R.string.fiveString)));
-        words.add(new Word(getResources().getString(R.string.sixStringAnswer),getResources().getString(R.string.sixString)));
-        words.add(new Word(getResources().getString(R.string.sevenStringAnswer),getResources().getString(R.string.sevenString)));
-        words.add(new Word(getResources().getString(R.string.eightStringAnswer),getResources().getString(R.string.eightString)));
-        words.add(new Word(getResources().getString(R.string.nineStringAnswer),getResources().getString(R.string.nineString)));
-        words.add(new Word(getResources().getString(R.string.tenStringAnswer),getResources().getString(R.string.tenString)));
+        words.add(new Word(getResources().getString(R.string.oneStringAnswer),getResources().getString(R.string.oneString),R.drawable.number_one));
+        words.add(new Word(getResources().getString(R.string.twoStringAnswer),getResources().getString(R.string.twoString),R.drawable.number_two));
+        words.add(new Word(getResources().getString(R.string.threeStringAnswer),getResources().getString(R.string.threeString),R.drawable.number_three));
+        words.add(new Word(getResources().getString(R.string.fourStringAnswer),getResources().getString(R.string.fourString),R.drawable.number_four));
+        words.add(new Word(getResources().getString(R.string.fiveStringAnswer),getResources().getString(R.string.fiveString),R.drawable.number_five));
+        words.add(new Word(getResources().getString(R.string.sixStringAnswer),getResources().getString(R.string.sixString),R.drawable.number_six));
+        words.add(new Word(getResources().getString(R.string.sevenStringAnswer),getResources().getString(R.string.sevenString),R.drawable.number_seven));
+        words.add(new Word(getResources().getString(R.string.eightStringAnswer),getResources().getString(R.string.eightString),R.drawable.number_eight));
+        words.add(new Word(getResources().getString(R.string.nineStringAnswer),getResources().getString(R.string.nineString),R.drawable.number_nine));
+        words.add(new Word(getResources().getString(R.string.tenStringAnswer),getResources().getString(R.string.tenString),R.drawable.number_ten));
         WordAdapter wordAdapter=new WordAdapter(this,words);
 
 
         ListView rootView=(ListView) findViewById(R.id.listViewRoot);
-        rootView.setBackgroundColor(getResources().getColor(R.color.darkGreen));
+
         rootView.setAdapter(wordAdapter);
         //end of source words display
 

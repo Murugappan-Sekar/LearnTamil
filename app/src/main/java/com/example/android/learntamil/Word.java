@@ -7,17 +7,29 @@ package com.example.android.learntamil;
 public class Word {
     private String tamilWord;
     private String translationWord;
-    public Word(String tamWord,String traWord)
-    {
-        tamilWord=tamWord;
-        translationWord=traWord;
+    private int picId=0;
+
+    public Word(String tamWord, String traWord) {
+        tamilWord = tamWord;
+        translationWord = traWord;
     }
-    public String getTamilWord()
-    {
+
+    public Word(String tamWord, String traWord, int pic) {
+        tamilWord = tamWord;
+        translationWord = traWord;
+        picId = pic;
+    }
+
+    public String getTamilWord() {
+
         return tamilWord;
     }
-    public String getTransWord()
-    {
+
+    public String getTransWord() {
         return translationWord;
+    }
+
+    public int getPicId() {
+        return picId;
     }
 }

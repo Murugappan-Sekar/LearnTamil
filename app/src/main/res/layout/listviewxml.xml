@@ -8,6 +8,6 @@
     android:id="@+id/listViewRoot"
     android:padding="16dp"
     android:divider="#000000"
-    android:dividerHeight="0.5dp"
+    android:dividerHeight="0dp"
     >
 </ListView>

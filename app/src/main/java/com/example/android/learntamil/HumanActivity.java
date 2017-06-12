@@ -30,7 +30,6 @@ public class HumanActivity extends AppCompatActivity {
 
 
         ListView rootView = (ListView) findViewById(R.id.listViewRoot);
-        rootView.setBackgroundColor(getResources().getColor(R.color.royalBlue));
         rootView.setAdapter(wordAdapter);
         //end of source words display
     }

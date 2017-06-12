@@ -34,7 +34,6 @@ public class AnimalsActivity extends AppCompatActivity {
 
 
         ListView rootView = (ListView) findViewById(R.id.listViewRoot);
-        rootView.setBackgroundColor(getResources().getColor(R.color.purple));
         rootView.setAdapter(wordAdapter);
         //end of source words display
     }
